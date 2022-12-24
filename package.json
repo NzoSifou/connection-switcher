@@ -1,0 +1,41 @@
+{
+  "name": "connection-switcher",
+  "version": "1.0.0",
+  "description": "Switch between Ethernet and Wi-Fi connection by toggling Ethernet Network Adapter",
+  "main": "src/main/main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "build": {
+    "win": {
+      "requestedExecutionLevel": "highestAvailable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NzoSifou/connection-switcher.git"
+  },
+  "keywords": [
+    "connection",
+    "switch",
+    "toggle",
+    "ethernet",
+    "network",
+    "adapter",
+    "wifi",
+    "connection"
+  ],
+  "author": "NzoSifou",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/NzoSifou/connection-switcher/issues"
+  },
+  "homepage": "https://github.com/NzoSifou/connection-switcher#readme",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^22.0.0",
+    "typescript": "^4.9.3",
+    "sudo-prompt": "latest",
+    "electron-store": "latest"
+  }
+}
