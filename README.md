@@ -14,6 +14,8 @@ I created this software because I often use an Ethernet cable and my phone's con
 - [ ] Make a language file
     * [ ] Make a French translation
     * [ ] Detect the default Windows language and use it if available otherwise use English
+- [ ] Add a "Start with Windows" option
+- [ ] Create a submenu to select the network adapter from the system tray
 
 ### About the design
 If you are a contributing graphic designer and have some idea for the design of the app,    
