@@ -4,7 +4,10 @@
   "description": "Switch between Ethernet and Wi-Fi connection by toggling Ethernet Network Adapter",
   "main": "src/main/main.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "build": {
     "win": {
@@ -32,10 +35,18 @@
   },
   "homepage": "https://github.com/NzoSifou/connection-switcher#readme",
   "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
     "@types/electron": "^1.6.10",
     "electron": "^22.0.0",
-    "typescript": "^4.9.3",
+    "electron-store": "latest",
     "sudo-prompt": "latest",
-    "electron-store": "latest"
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
