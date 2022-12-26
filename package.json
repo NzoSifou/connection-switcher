@@ -1,7 +1,7 @@
 {
   "name": "connection-switcher",
   "version": "1.0.0",
-  "description": "Switch between Ethernet and Wi-Fi connection by toggling Ethernet Network Adapter",
+  "description": "This software allows you to select a network adapter to enable or disable it easier and faster than going through Windows settings.",
   "main": "src/main/main.js",
   "scripts": {
     "test": "electron .",
@@ -25,8 +25,7 @@
     "ethernet",
     "network",
     "adapter",
-    "wifi",
-    "connection"
+    "wifi"
   ],
   "author": "NzoSifou",
   "license": "GPL-3.0-or-later",
