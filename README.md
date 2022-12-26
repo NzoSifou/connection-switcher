@@ -31,4 +31,4 @@ If you want to test your changes (development mode), execute `npm test`.
 If you want to build a custom Connection Switcher app, you have to change the version in `package.json`  
 Then you have to execute `npm run make` to build the .exe setup.  
 
-You can finally find your custom build (named `connection-switcher-x.x.x Setup.exe` (where x.x.x is the version) by default) into the `out/make/.../` folder.
+You can finally find your custom build (named `connection-switcher-x.x.x Setup.exe` (where x.x.x is the version) by default) into the `/out/make/.../` folder.
